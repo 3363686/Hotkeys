@@ -26,7 +26,7 @@
     .col td.dup:before {content: "    - \" -"}
     .col td.err {background-color: #ffcccc}
     .col td.unk {background-color: #ffee77}
-    .col td {white-space: pre;}
+    /*.col td {white-space: pre;}*/ /* Removed due to Firefox `float+nowrap=linebreak bug`*/
     .div td {
       border-top:    2px solid #eeeeff;
       border-bottom: 4px solid #0000ff; }
@@ -162,7 +162,7 @@
       <td>Win<var><big>.</big></var></td>
     <tr>
       <td title='Отображение диалогового окна "Свойства системы"'>Окно "Свойства системы"</td>
-      <td><nobr>Win<var>Pause</var></nobr></td>
+      <td>Win<var>Pause</var></td>
     <tr>
       <td title='Переключение языка ввода и раскладки клавиатуры'>Переключение языка ввода и раскладки клавиатуры</td>
       <td>Win<var>Space</var></td>
